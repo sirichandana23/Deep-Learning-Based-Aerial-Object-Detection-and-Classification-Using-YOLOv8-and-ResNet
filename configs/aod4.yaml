@@ -1,0 +1,12 @@
+# Ultralytics YOLO dataset configuration.
+# Paths are relative to this file.
+path: ../data/detection/AOD_4
+train: images/train
+val: images/val
+
+nc: 4
+names:
+  0: airplane
+  1: helicopter
+  2: drone
+  3: bird

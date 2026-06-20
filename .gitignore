@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter and editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local datasets (retain documentation)
+data/*
+!data/README.md
+
+# Models and experiment output
+models/
+weights/
+runs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Logs, caches, and credentials
+*.log
+.cache/
+tmp/
+temp/
+kaggle.json
+credentials.json
+service-account*.json
